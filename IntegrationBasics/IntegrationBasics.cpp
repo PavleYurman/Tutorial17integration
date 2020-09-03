@@ -19,10 +19,10 @@ int main()
     std::cout << "t = " << t << " position = " << position << " velocitiy = " << velocitiy << std::endl;
  
 
-    while (t < 10.0)
+    while (t < 10)
     {
-        position = position + velocitiy * dt;
         velocitiy = velocitiy + (force / mass) * dt;
+        position = position + velocitiy * dt;        
         t += dt;
         std::cout << "t = " << t << " position = " << position << " velocitiy = " << velocitiy << std::endl;
     }   
