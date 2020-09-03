@@ -6,7 +6,7 @@
 
 int main()
 {
-    // This is numerical integration called semi implicit euler.
+    // This is numerical integration called semi implicit euler applied to spring damper system
     double t = 0.0;
     float dt = 1.0f; // change by 1 sec vs change by 1/100 sec
     dt = dt / 100.0f;
